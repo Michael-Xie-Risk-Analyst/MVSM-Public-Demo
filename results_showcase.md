@@ -12,7 +12,7 @@ This document contains the simulation results derived from the MVSM 12.0 Monte C
 
 ## Results Visualization
 
-![MVSM 12.0: Monte Carlo Price Distribution @ March 28](results/屏幕截图%202026-03-24%20145037.png)
+![MVSM 12.0: Monte Carlo Price Distribution @ March 28](https://github.com/Michael-Xie-Risk-Analyst/MVSM-Public-Demo/blob/6183a231c546102710c720ae2d194588b079f3f2/results/image.png, https://github.com/Michael-Xie-Risk-Analyst/MVSM-Public-Demo/blob/6183a231c546102710c720ae2d194588b079f3f2/results/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202026-03-24%20162536.png)
 
 ## Key Insights
 
