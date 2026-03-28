@@ -1,1 +1,25 @@
-
+Brent Crude Oil (BOOY) Opening Price Probability Distribution Analysis
+Overview
+This repository contains Monte Carlo pressure test models and probability distribution analysis for the March 30, 2026 (Monday) opening price of Brent Crude Oil (BOOY). The analysis evaluates market resilience, supply shock risks, and price projection scenarios under current geopolitical tensions in the Middle East.
+Core Parameters & Scenarios
+All scenarios are calibrated with a spot anchor price of $106.09 (previous close) and simulate geopolitical supply shocks, physical market gaps, and global buffer capacity.
+表格
+Scenario	Rupture Probability	Market Expected Mean	System Status	Shock Intensity	Physical Gap	Global Buffer
+1	7.23%	$118.58	STABLE	0.61	2.74	60.00
+2	15.55%	$127.68	ELEVATED	1.13	3.68	60.00
+3	28.86%	$134.64	ELEVATED	1.42	5.12	60.00
+4	44.65%	$140.15	CRITICAL	1.71	6.29	60.00
+5	66.64%	$145.51	CRITICAL	1.83	7.73	37.59
+Baseline Scenario (Most Probable)
+Scenario 3 (28.86% Rupture Probability) is identified as the most realistic baseline for the Monday opening price:
+Balanced calibration of geopolitical risk and market resilience
+Maintains full global buffer capacity ($60.00)
+Projects a moderate upside gap consistent with typical geopolitical risk pricing in crude oil markets
+Avoids overly conservative (Scenario 1) or extreme black-swan (Scenario 5) bias
+Key Notes
+Trading Hours (Beijing Time, DST): Monday 06:00 – Saturday 04:45
+Drivers: Middle East geopolitical tensions, supply disruption risks, and global energy buffer dynamics
+Model: MVSM 13.0 Monte Carlo Pressure Test
+Disclaimer: This analysis is for research and reference only. It does not constitute investment or trading advice.
+License
+MIT License
